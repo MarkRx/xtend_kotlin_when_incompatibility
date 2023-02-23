@@ -1,0 +1,10 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'org.xtext:xtext-gradle-plugin:2.0.9-alpha.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10"
+    }
+}

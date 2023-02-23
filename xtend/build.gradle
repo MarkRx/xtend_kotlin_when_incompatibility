@@ -1,0 +1,10 @@
+apply plugin: 'org.xtext.xtend'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':kotlin')
+    implementation 'org.eclipse.xtend:org.eclipse.xtend.lib:2.29.0'
+}
